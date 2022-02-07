@@ -12,3 +12,9 @@
     text-decoration: underline;
     color          : white;
 }
+
+@media screen and (max-width:400px) {
+    .rodape__link{
+        font-size  : 1em;
+    }
+}
