@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.vantagem__lista {
+    display        : inline-block;
+    vertical-align : top;
+    list-style: none;
+}
+
+@media screen and (max-width:550px) {
+    .vantagem__lista {
+        margin : auto;
+        display: block;
+        width  : 210px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+}

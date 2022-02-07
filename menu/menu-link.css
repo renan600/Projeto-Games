@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.menu__link {
+    text-transform : uppercase;
+    text-decoration: none;
+    color          : black;
+    font-size      : 1.4em;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    font-weight    : bold;
+}
+
+@media screen and (max-width:465px) {
+    .menu__link{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:405px) {
+    .menu__link{
+        font-size: 1em;
+    }
+}

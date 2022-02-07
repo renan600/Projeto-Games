@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.menu__lista {
+    display   : flex;
+    list-style: none;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.produto__descricao {
+    font-size  : 1.2em;
+    text-align : justify;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width:850px) {
+  .produto__descricao{
+    font-size: 1em;
+  }
+}

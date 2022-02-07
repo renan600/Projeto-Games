@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.vantagem__imagem {
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    border-radius: 20px;
+}
+
+.vantagem__div--imagem {
+    min-width: 280px;
+    max-width: 600px;
+    display  : inline-block;
+}
+

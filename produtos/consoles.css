@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.consoles {
+    padding   : 0px 20px 40px 20px;
+    display   : flex;
+    flex-wrap : wrap;
+   
+    background-image: linear-gradient(to bottom, #cccccc86, #cccccc);
+}
+@media screen and (max-width:1250px) {
+    .consoles{
+        padding: 40px 0px;
+    }
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'font-titulo';
+    src: url('font/game_over_2/Game\ Over.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Pacifico', cursive;
+*/
+

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.cabecalho {
+    position        : sticky;
+    align-items     : center;
+    background-color: whitesmoke;
+    display         : flex;
+    padding         : 3px 20px;
+    justify-content : space-between;
+}
+
+h1 {
+    height: 56px;
+}
+
+@media screen and (max-width:684px) {
+    .cabecalho {
+        position       : relative;
+        justify-content: center;
+    }
+
+    h1 {
+        display: none;
+    }
+}

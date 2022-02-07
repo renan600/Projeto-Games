@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.rodape {
+    background-color: #424242;
+    padding         : 0px 20px 10px 20px;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+}
+
+.rodape__logo{
+    text-align: center;
+}
+.rodape__descricao--logo {
+    display    : block;
+    font-size  : 2em;
+    font-family: font-titulo;
+    font-weight: normal;
+    color      : #FF6A00;
+}
+
+@media screen and (max-width:400px) {
+    
+}

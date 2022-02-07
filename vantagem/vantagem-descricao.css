@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.vantagem__descricao {
+    font-size  : 2em;
+    font-weight: bold;
+    color      : #606060;
+    text-align : center;
+}
+
+@media screen and (max-width: 600px) {
+    .vantagem__descricao{
+       font-size: 1.6em;
+    }
+}
+@media screen and (max-width: 460px) {
+    .vantagem__descricao{
+       font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 405px) {
+    .vantagem__descricao{
+       font-size: 1.2em;
+    }
+}

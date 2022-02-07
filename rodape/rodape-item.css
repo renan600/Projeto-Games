@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.rodape__item--github::before {
+    content: url(../img/rodape/github.png);
+}
+
+.rodape__item--email::before {
+    content: url(../img/rodape/o-email.png);
+}
+
+.rodape__item--linkedin::before {
+    content: url(../img/rodape/linkedin.png);
+}
+
+.rodape__item--whatsapp::before {
+    content: url(../img/rodape/whatsapp.png);
+}

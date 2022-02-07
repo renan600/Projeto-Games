@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.sobre__descricao {
+    font-size  : 2em;
+    font-weight: bold;
+    color      : #606060;
+}
+
+@media screen and (max-width: 600px) {
+    .sobre__descricao{
+       font-size: 1.6em;
+    }
+}
+@media screen and (max-width: 460px) {
+    .sobre__descricao{
+       font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 405px) {
+    .sobre__descricao{
+       font-size: 1.2}
+    }

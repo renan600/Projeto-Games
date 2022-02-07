@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.produto {
+    display         : flex;
+    flex-direction  : column;
+    background-color: whitesmoke;
+    margin          : 40px 30px 40px 30px;
+    width           : calc(25% - 60px);
+    border-radius   : 10px;
+    box-shadow      : 2px 2px 8px rgba(0, 0, 0, 0.425);
+}
+
+@media screen and (max-width:1250px) {
+    .produto {
+        margin: 40px 10px 40px 10px;
+        width : calc(33.3% - 20px);
+    }
+}
+
+@media screen and (max-width:850px) {
+    .produto {
+        margin: 40px 10px 40px 10px;
+        width : calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .produto {
+        margin: 40px 50px 40px 50px;
+        width : calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width:400px) {
+    .produto {
+        margin: 20px 15px 20px 15px;
+        width : calc(100% - 30px);
+    }
+}

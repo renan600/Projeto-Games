@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.produto__titulo {
+    font-size: 1.5em;
+    height   : 29px;
+}
+
+@media screen and (max-width:850px) {
+    .produto__titulo {
+        font-size: 1.2em;
+    }
+}

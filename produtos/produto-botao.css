@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.produto__botao{
+    padding: 15px;
+    background-color:#FF6A00;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.produto__botao:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}

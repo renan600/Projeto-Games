@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.rodape__link {
+    text-decoration: none;
+    font-size      : 1.1em;
+    margin-left    : 10px;
+    color          : black;
+
+}
+
+.rodape__link:hover {
+    text-decoration: underline;
+    color          : white;
+}

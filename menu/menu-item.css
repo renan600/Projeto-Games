@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.menu__item {
+    margin-right: 30px;
+}
+
+.menu__item:last-child {
+    margin-right: 0px;
+}
+@media screen and (max-width:465px) {
+    .menu__item{
+        margin-right: 20px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:405px) {
+    .menu__item{
+       margin-right: 10px;
+       padding: 5px;
+    }
+}

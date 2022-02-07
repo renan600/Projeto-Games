@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.rodape__lista {
+    list-style : none;
+    font-weight: bold;
+}

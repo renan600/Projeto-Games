@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.banner__imagem {
+    width : 100%;
+    height: calc(100vh - 57px);
+}
+
+@media screen and (max-width: 685px) {
+    .banner__imagem{
+        height: calc(100vh - 57px);
+    }
+}

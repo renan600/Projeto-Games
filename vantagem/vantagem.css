@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.vantagem {
+    background-color: #cccccc9c;
+    padding         : 40px 20px 5px 20px;
+    background-image: linear-gradient(to bottom, #aaa7a7, #424242);
+
+}
+
+.vantagem__div {
+    min-width      : 280px;
+    max-width      : 900px;
+    margin         : auto;
+    display        : flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:550px) {
+    .vantagem__div{
+        display: block;
+    }
+ }
